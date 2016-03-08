@@ -46,6 +46,9 @@
           <a href="#services" onclick=$("#menu-close").click();>Services</a>
         </li>
         <li>
+          <a href="#next-meeting" onclick=$("#menu-close").click();>Next Meeting</a>
+        </li>
+        <li>
           <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
         </li>
         <li>
@@ -149,7 +152,7 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+    <aside id="next-meeting" class="callout">
       <div class="text-vertical-center">
         <h1>Next Meeting</h1>
         <h2>We'll meet next on
@@ -306,6 +309,7 @@
   <!-- endbuild -->
 
   <!-- build:js scripts/main.js -->
+  <script src="/bower_components/down-count/jquery.downCount.js"></script>
   <script src="scripts/main.js"></script>
   <!-- endbuild -->
 </body>
