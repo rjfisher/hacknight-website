@@ -6,7 +6,8 @@
     "bootstrap": "^3.3.6",
     "font-awesome": "fontawesome#^4.5.0",
     "down-count": "^1.0.0",
-    "moment": "^2.11.2"
+    "moment": "^2.11.2",
+    "leaflet": "^0.7.7"
   },
   "devDependencies": {
     "chai": "^3.5.0",

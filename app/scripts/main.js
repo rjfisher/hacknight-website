@@ -48,3 +48,10 @@ $(function() {
     offset: 0
   });
 });
+
+$(document).ready(function() {
+  'use strict';
+
+  var m = window.mapping;
+  m.initMap();
+});

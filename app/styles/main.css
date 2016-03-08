@@ -87,11 +87,11 @@ hr.small {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #CCC;
+  color: #fff;
 }
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   background: #fff;
 }
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -207,7 +207,17 @@ hr.small {
     height: 75%;
   }
 }
+
+#leaflet {
+  height: 100%;
+}
+
+.leaflet-popup-content {
+  color: #000;
+}
+
 /* Next Meeting */
+
 ul.countdown {
   list-style: none;
   margin: 0;
