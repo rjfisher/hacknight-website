@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hack Night Lancaster</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+          <i class="fa fa-times"></i>
+        </a>
+        <li class="sidebar-brand">
+          <a href="#top" onclick=$("#menu-close").click();>Hack Night</a>
+        </li>
+        <li>
+          <a href="#top" onclick=$("#menu-close").click();>Home</a>
+        </li>
+        <li>
+          <a href="#about" onclick=$("#menu-close").click();>About</a>
+        </li>
+        <li>
+          <a href="#services" onclick=$("#menu-close").click();>Services</a>
+        </li>
+        <li>
+          <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+      <div class="text-vertical-center">
+        <h1>Hack Night Lancaster
+        </h1>
+        <h3>A night of coding for a cause!</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Hack Night is ready for your next project!</h2>
+            <p class="lead">Lancaster's local technology talent is eager to use their skills on projects for local non-profits.</p>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2>Our Goals</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-terminal fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>CoWorking</strong>
+                  </h4>
+                  <p>If you are looking for a side project to hack on or need
+                   a second pair of eyes on your project then hack night is for <strong>you!</strong>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-commenting fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Advice & Knowledge</strong>
+                  </h4>
+                  <p>Have questions that online forums just can't answer?  Come to hack night to pick the brain of fellow developers.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-retweet fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Help Local Non-Profits</strong>
+                  </h4>
+                  <p>Hack Night is attempting to pair local technology talent with local non-profits to help those organizations most in need.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Experimentation</strong>
+                  </h4>
+                  <p>Want help learning a new framework?  Want to break something where people can help fix it?  Hack Night will help.</p>
+                </div>
+              </div>
+            </div>
+            <!-- /.row (nested) -->
+          </div>
+          <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+      <div class="text-vertical-center">
+        <h1>Next Meeting</h1>
+        <h2>We'll meet next on
+          <span class="next" style="color:yellow"></span>
+        </h2>
+        <ul class="countdown">
+          <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+          </li>
+          <li class="seperator">.</li>
+          <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+          </li>
+          <li class="seperator">:</li>
+          <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+          </li>
+          <li class="seperator">:</li>
+          <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>Our Work</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="http://www.unmundo.org/">
+                    <img class="img-portfolio img-responsive" alt="Un Mundo" src="images/un-mundo.jpg">
+                  </a>
+                  <div>
+                    <a href="http://www.unmundo.org/"><h3>Un Mundo</h3></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="http://thecommonwheel.com/">
+                    <img class="img-portfolio img-responsive" alt="The Common Wheel" src="images/common-wheel.jpg">
+                  </a>
+                  <div>
+                    <a href="http://thecommonwheel.com/"><h3>The Common Wheel</h3></a>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="#">
+                    <img class="img-portfolio img-responsive" src="images/portfolio-3.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="portfolio-item">
+                  <a href="#">
+                    <img class="img-portfolio img-responsive" src="images/portfolio-4.jpg">
+                  </a>
+                </div>
+              </div>-->
+            </div>
+            <!-- /.row (nested) -->
+            <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+          </div>
+          <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3>The buttons below are impossible to resist.</h3>
+            <a href="#top" class="btn btn-lg btn-light">To The Top!</a>
+            <a href="#contact" class="btn btn-lg btn-dark">To The Bottom!</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+      <iframe
+        width="100%"
+        height="100%"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Modo,+Design,+Group,+Fulton+Street,+Lancaster,+PA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+      <br/>
+      <small>
+        <a
+          href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+      </small>
+    </iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h4>
+            <strong>Hack Night Lancaster @ Modo Design Group</strong>
+          </h4>
+          <p>319 E Fulton St #100<br>Lancaster, Pa 17602</p>
+          <br>
+          <ul class="list-inline">
+            <li>
+              <a href="http://www.hacklancaster.net/">
+                <i class="fa fa-globe fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/hacklancaster">
+                <i class="fa fa-twitter fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Hack-Lancaster">
+                <i class="fa fa-github fa-fw fa-3x"></i>
+              </a>
+            </li>
+          </ul>
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; Hack Night Lancaster 2016</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/bower_components/moment/moment.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
