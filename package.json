@@ -37,6 +37,11 @@
         2,
         "single"
       ]
+    },
+    "globals": {
+      "$": true,
+      "moment": true,
+      "L": true
     }
   }
 }
