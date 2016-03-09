@@ -4,6 +4,7 @@ window.mapping = {
   map: null,
 
   initMap: function() {
+    L.Icon.Default.imagePath = 'images/leaflet/';
     var map = L.map('leaflet', {
       dragging: false,
       scrollWheelZoom: false,

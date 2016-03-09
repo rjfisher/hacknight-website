@@ -152,8 +152,7 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
 
 gulp.task('deploy', ['build'], () => {
   return gulp.src('dist')
-    .pipe($.subtree())
-    .pipe($.clean());
+    .pipe($.subtree());
 });
 
 gulp.task('default', ['clean'], () => {
