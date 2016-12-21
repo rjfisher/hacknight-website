@@ -26,29 +26,6 @@ $(function() {
   });
 });
 
-function getDate(month) {
-  'use strict';
-  var result = month.startOf('month');
-  while (result.day() !== 4) {
-    result.add(1, 'day');
-  }
-
-  return result.add(21, 'days');
-}
-
-$(function() {
-  'use strict';
-  var result = getDate(moment());
-  var meeting = result.subtract(6, 'hours');
-
-  $('.next').text(meeting.format('dddd, MMMM Do YYYY, h:mm:ss a') + ' EST');
-
-  $('.countdown').downCount({
-    date: meeting.add(4, 'hours').format(),
-    offset: 0
-  });
-});
-
 $(document).ready(function() {
   'use strict';
 
