@@ -209,6 +209,10 @@ hr.small {
   -o-background-size: cover;
 }
 
+.anchor-yellow {
+  color: yellow;
+}
+
 /* Portfolio */
 
 .portfolio {
